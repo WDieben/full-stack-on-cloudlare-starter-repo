@@ -1,36 +1,3 @@
-export const LINKS = [
-  {
-    name: "Amazon Bluetooth Headphones",
-    linkId: "dAd5d",
-    destinations: 6,
-    linkClicks: 2,
-    last24Hours: [
-      42, 17, 83, 29, 56, 91, 14, 67, 38, 75, 22, 94, 51, 18, 73, 36, 89, 45,
-      62, 27, 84, 59, 13, 76,
-    ],
-  },
-  {
-    name: "Apple AirPods",
-    linkId: "eFg6e",
-    destinations: 4,
-    linkClicks: 1,
-    last24Hours: [
-      34, 21, 78, 45, 67, 92, 15, 69, 39, 76, 23, 95, 52, 19, 74, 37, 88, 44,
-      63, 28, 85, 58, 12, 77,
-    ],
-  },
-  {
-    name: "Samsung Galaxy Buds",
-    linkId: "fHj7f",
-    destinations: 5,
-    linkClicks: 3,
-    last24Hours: [
-      28, 14, 79, 35, 58, 83, 17, 71, 42, 80, 27, 96, 53, 20, 75, 39, 91, 47,
-      64, 29, 86, 61, 15, 78,
-    ],
-  },
-];
-
 export const ACTIVE_LINKS_LAST_HOUR: {
   name: string;
   linkId: string;
@@ -119,26 +86,6 @@ export const LAST_30_DAYS_BY_COUNTRY: {
   },
 ];
 
-export const LINK_LIST = [
-  {
-    destinations: 6,
-    linkId: "dAd5d",
-    created: "2024-01-10T09:15:30Z",
-    name: "Amazon Bluetooth Headphones",
-  },
-  {
-    destinations: 4,
-    linkId: "eFg6e",
-    created: "2024-01-12T14:22:45Z",
-    name: "Apple AirPods",
-  },
-  {
-    destinations: 5,
-    linkId: "fHj7f",
-    created: "2024-01-11T11:08:12Z",
-    name: "Samsung Galaxy Buds",
-  },
-];
 
 export const EVALUATION_ISSUES: {
   id: string;

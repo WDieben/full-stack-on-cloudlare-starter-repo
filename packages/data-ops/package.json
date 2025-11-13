@@ -4,7 +4,7 @@
   "description": "Helper methods to interface with data",
   "scripts": {
     "build": "tsc -p tsconfig.json --outDir ./dist && tsc-alias",
-    "pull": "drizzle-kit pull --config drizzle.config.ts",
+    "pull": "drizzle-kit pull --config drizzle.config.ts", 
     "migrate": "drizzle-kit migrate --config drizzle.config.ts",
     "generate": "drizzle-kit generate --config drizzle.config.ts",
     "studio": "drizzle-kit studio --config drizzle.config.ts",

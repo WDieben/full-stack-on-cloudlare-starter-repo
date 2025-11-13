@@ -14,4 +14,18 @@
   "observability": {
     "enabled": true,
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "de4e53a3-c2b9-4b8c-a3e2-9fd68fe93f0e",
+      "experimental_remote": true,
+    }
+  ],
+  "services": [
+    {
+      "binding": "BACKEND_SERVICE",
+      "service": "data-service",
+      "experimental_remote": true,
+    }
+  ]
 }
