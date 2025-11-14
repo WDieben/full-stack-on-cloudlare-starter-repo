@@ -3,16 +3,17 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"deploy": "wrangler deploy",
+		"stage:deploy": "wrangler deploy --env stage",
+		"production:deploy": "wrangler deploy --env production",
 		"dev": "wrangler dev --x-remote-bindings",
 		"start": "wrangler dev",
 		"test": "vitest",
-		"cf-typegen": "wrangler types --env-interface BaseEnv"
+		"cf-typegen": "wrangler types --env-interface BaseEnv --env stage"
 	},
 	"devDependencies": {
 		"@cloudflare/puppeteer": "^1.0.3",
 		"@cloudflare/vitest-pool-workers": "^0.8.19",
-		"@types/node": "^22.15.19",
+		"@types/node": "^22s15.19",
 		"typescript": "^5.5.2",
 		"vitest": "~3.2.0",
 		"wrangler": "^4.24.3"
